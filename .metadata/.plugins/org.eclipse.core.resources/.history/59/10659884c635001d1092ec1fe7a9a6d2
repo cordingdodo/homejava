@@ -1,0 +1,14 @@
+package homework;
+
+public class for문5 {
+
+
+	public static void main(String[] args) {
+		//0부터 20까지 짝수만 출력해보자.
+	for(int a=0;a<=20;a+=2){
+		System.out.println(a);
+
+	}
+
+}
+}

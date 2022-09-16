@@ -1,0 +1,16 @@
+package homework;
+
+import java.util.Scanner;
+
+public class Homework {
+
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+		System.out.println("정수 입력 : >");
+		int num = sc.nextInt();
+		for(num=>1&&num<9){
+				System.out.println();
+	}
+System.out.println("1~9 사이의 양수를 하나 입력하세요 :>");
+}
+
