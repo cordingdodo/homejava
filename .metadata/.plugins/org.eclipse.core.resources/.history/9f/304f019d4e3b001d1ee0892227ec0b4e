@@ -1,0 +1,15 @@
+package sec2;
+
+public class Tv {
+	String color; //색깔
+	boolean power; //전원상태
+	int channel; //채널
+
+	void power () {power= !power;}
+	void channelUp() {channel++;} 
+	void channelDown() {channel--;}
+
+	Tv t1 = new Tv();
+	Tv t2 = new Tv();
+	t.channel = 7;
+}

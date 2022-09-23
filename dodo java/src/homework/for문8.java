@@ -1,33 +1,33 @@
-package homework;
-
-public class for¹®8 {
-
-	public static void main(String[] args) {
-		// for¹®À» ÀÌ¿ëÇØ¼­ 1ºÎÅÍ 100±îÁöÀÇ Á¤¼ö Áß¿¡¼­ 3ÀÇ ¹è¼ö¸¦ ±¸ÇÏ½Ã¿À
-		for(int i=0;i<=100;i+=3){
-			System.out.println(i);
-
-		}
-		System.out.println();
-		System.out.println("**************");
-		//for¹®À» ÀÌ¿ëÇØ¼­ 1ºÎÅÍ 100±îÁöÀÇ Á¤¼ö Áß¿¡¼­ 3ÀÇ ¹è¼öÃÑÇÕÀ» ±¸ÇÏ´Â ÄÚµå¸¦ ÀÛ¼ºÇÏ½Ã¿À.
-		int tot=0;
-		for(int a=0;a<=100;a+=3){
-			tot+=a;
-		}
-			System.out.println("3ÀÇ ¹è¼öÀÇ ÇÕ:" +tot);
-			System.out.println();
-			System.out.println("**************");			
-		int sum=0;
-		for(int b=1;b<=100;b++){
-			if(b%3==0){
-			sum+=b;
-			
-		}
-		
-		}
-		System.out.println("3ÀÇ ¹è¼öÀÇ ÇÕ 2:" +sum);
-	}
-}
-
-
+//package homework;
+//
+//public class forï¿½ï¿½8 {
+//
+//	public static void main(String[] args) {
+//		// forï¿½ï¿½ï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½Ø¼ï¿½ 1ï¿½ï¿½ï¿½ï¿½ 100ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß¿ï¿½ï¿½ï¿½ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï½Ã¿ï¿½
+//		for(int i=0;i<=100;i+=3){
+//			System.out.println(i);
+//
+//		}
+//		System.out.println();
+//		System.out.println("**************");
+//		//forï¿½ï¿½ï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½Ø¼ï¿½ 1ï¿½ï¿½ï¿½ï¿½ 100ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß¿ï¿½ï¿½ï¿½ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½Úµå¸¦ ï¿½Û¼ï¿½ï¿½Ï½Ã¿ï¿½.
+//		int tot=0;
+//		for(int a=0;a<=100;a+=3){
+//			tot+=a;
+//		}
+//			System.out.println("3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½:" +tot);
+//			System.out.println();
+//			System.out.println("**************");			
+//		int sum=0;
+//		for(int b=1;b<=100;b++){
+//			if(b%3==0){
+//			sum+=b;
+//			
+//		}
+//		
+//		}
+//		System.out.println("3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 2:" +sum);
+//	}
+//}
+//
+//

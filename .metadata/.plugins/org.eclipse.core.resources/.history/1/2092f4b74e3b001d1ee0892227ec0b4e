@@ -1,0 +1,29 @@
+package sec2;
+
+public class Tv {
+	String color; //색깔
+	boolean power; //전원상태
+	int channel; //채널
+
+	void power () {
+		power= !power;
+		}
+	void channelUp() {
+		channel++;
+		} 
+	void channelDown() {
+		channel--;
+		}
+
+	void channelCheck() {
+		System.out.println("현재 채널은" + channel + "번 입니다.");
+	}
+	
+	public static void main(Stirng[] args){
+		Tv tv = new Tv(); //제품 생성(객체 생성)
+	
+	// 제품의 사용 (객체의 사용)
+	Tv t1 = new Tv(); // 
+	Tv t2 = new Tv();
+	tv.channel = 7;
+}

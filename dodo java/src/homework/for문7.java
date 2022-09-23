@@ -1,34 +1,34 @@
-package homework;
-
-import java.util.Scanner;
-
-public class for¹®7 {
-
-	public static void main(String[] args) {
-		//¿µÈñ°¡ ÀºÇà¿¡ 500¿ø(¿ø±İ)À» ÀÔ±İÇß´Ù. ÇÏ·ç¿¡ 1¿ø¾¿ ÀÌÀÚ°¡ ºÙ´Â´Ù. 
-		//5ÀÏ ÈÄ(ÀÏ¼ö) ÀÜ¾×Àº ¾ó¸¶°¡ µÇ¾î ÀÖÀ»±î?
-		
-		int money=500;
-		for(int m=0;m<5;m++){
-			money++;
-		}
-		System.out.println("¿µÈñÀÇ ÀÜ¾×Àº :"  +money);
-		
-		//À§ÀÇ ¹®Á¦¿¡¼­ ¿ø±İ°ú ¿¹Ä¡ ÀÏ¼ö¸¦ ÀÔ·Â¹Ş¾Æ Ã³¸®ÇØº¸ÀÚ
-		Scanner sc = new Scanner(System.in);
-		System.out.println("¿ø±İ°ú ¿¹Ä¡ ÀÏ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä:");
-		int m=sc.nextInt();
-		int d=sc.nextInt();
-		
-		for(int i=0;i<d;i++){
-			m+=i;
-			System.out.println(d+ "ÀÏ ÀÌÈÄÀÇ ÀÜ¾×Àº" +m+ "¿ø ÀÔ´Ï´Ù.");
-			
-			sc.close();
-		}
-		
-		}
-
-	}
-
-
+//package homework;
+//
+//import java.util.Scanner;
+//
+//public class forï¿½ï¿½7 {
+//
+//	public static void main(String[] args) {
+//		//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½à¿¡ 500ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½ ï¿½Ô±ï¿½ï¿½ß´ï¿½. ï¿½Ï·ç¿¡ 1ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½Ù´Â´ï¿½. 
+//		//5ï¿½ï¿½ ï¿½ï¿½(ï¿½Ï¼ï¿½) ï¿½Ü¾ï¿½ï¿½ï¿½ ï¿½ó¸¶°ï¿½ ï¿½Ç¾ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½?
+//		
+//		int money=500;
+//		for(int m=0;m<5;m++){
+//			money++;
+//		}
+//		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ü¾ï¿½ï¿½ï¿½ :"  +money);
+//		
+//		//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½İ°ï¿½ ï¿½ï¿½Ä¡ ï¿½Ï¼ï¿½ï¿½ï¿½ ï¿½Ô·Â¹Ş¾ï¿½ Ã³ï¿½ï¿½ï¿½Øºï¿½ï¿½ï¿½
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("ï¿½ï¿½ï¿½İ°ï¿½ ï¿½ï¿½Ä¡ ï¿½Ï¼ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½:");
+//		int m=sc.nextInt();
+//		int d=sc.nextInt();
+//		
+//		for(int i=0;i<d;i++){
+//			m+=i;
+//			System.out.println(d+ "ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ü¾ï¿½ï¿½ï¿½" +m+ "ï¿½ï¿½ ï¿½Ô´Ï´ï¿½.");
+//			
+//			sc.close();
+//		}
+//		
+//		}
+//
+//	}
+//
+//
